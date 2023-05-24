@@ -10,6 +10,8 @@ packages = [{include = "python_rn"}]
 python = "^3.10"
 Pillow = "^9.5.0"
 torch = "^2.0.1"
+pandas = "^2.0.1"
+ipykernel = "^6.23.1"
 
 
 [tool.poetry.group.dev.dependencies]
