@@ -39,8 +39,9 @@ class NeuralNetwork(nn.Module):
         # first layer nnets neurons and tanh activation
         self.fc1 = nn.Linear(20, nnets)
         self.fc1.activation = nn.Tanh()
-        # second layer 10 neurons and linear activation
+        # second layer 10 neurons and linear activation and softmax activation 0-1
         self.fc2 = nn.Linear(nnets, 10)
+
         self.model = nn.Sequential(self.fc1, self.fc2)
 
     def forward(self, x):
@@ -118,6 +119,12 @@ def train_network(
     return model
 
 
+def normalize_tensor(tensor: torch.Tensor) -> torch.Tensor:
+    softmax = nn.Softmax(dim=1)
+    normalized_tensor = softmax(tensor)
+    return normalized_tensor
+
+
 def make_flip_n_bits(bits: torch.Tensor, n: int = 1) -> torch.Tensor:
     import random
 
@@ -136,7 +143,7 @@ def test_network(
     print("Testing the neural network")
     with torch.no_grad():
         outputs = model(input_tensors)
-        print(f"Predicted: {outputs}")
+        print(f"Predicted: {normalize_tensor(outputs)}")
         print(f"Actual: {output_tensors}")
 
     input_tensors = original_input_tensors.clone()
@@ -147,7 +154,7 @@ def test_network(
         input_tensors[i] = make_flip_n_bits(input_tensors[i], 1)
     with torch.no_grad():
         outputs = model(input_tensors)
-        print(f"Predicted: {outputs}")
+        print(f"Predicted: {normalize_tensor(outputs)}")
         print(f"Actual: {output_tensors}")
 
     input_tensors = original_input_tensors.clone()
@@ -158,7 +165,7 @@ def test_network(
         input_tensors[i] = make_flip_n_bits(input_tensors[i], 2)
     with torch.no_grad():
         outputs = model(input_tensors)
-        print(f"Predicted: {outputs}")
+        print(f"Predicted: {normalize_tensor(outputs)}")
         print(f"Actual: {output_tensors}")
 
     input_tensors = original_input_tensors.clone()
@@ -169,7 +176,7 @@ def test_network(
         input_tensors[i] = make_flip_n_bits(input_tensors[i], 3)
     with torch.no_grad():
         outputs = model(input_tensors)
-        print(f"Predicted: {outputs}")
+        print(f"Predicted: {normalize_tensor(outputs)}")
         print(f"Actual: {output_tensors}")
 
 
