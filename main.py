@@ -158,7 +158,7 @@ def test_network(
         print(f"Actual: {output_tensors}")
 
     input_tensors = original_input_tensors.clone()
-
+    input("Press enter to continue...")
     # flip 2 bits in each input and test again
     print("Testing the neural network with 2 bits flipped in each input")
     for i in range(len(input_tensors)):

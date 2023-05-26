@@ -12,6 +12,7 @@ Pillow = "^9.5.0"
 torch = "^2.0.1"
 pandas = "^2.0.1"
 ipykernel = "^6.23.1"
+matplotlib = "^3.7.1"
 
 
 [tool.poetry.group.dev.dependencies]
