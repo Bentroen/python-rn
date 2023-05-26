@@ -1,0 +1,1831 @@
+<h1>Neural network com 15 neurons, 10000 epochs, 0.0005 goal, 0.1 learning rate, 0.0 momentum</h1><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>0</th>
+      <th>1</th>
+      <th>2</th>
+      <th>3</th>
+      <th>4</th>
+      <th>5</th>
+      <th>6</th>
+      <th>7</th>
+      <th>8</th>
+      <th>9</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Entrada</th>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGP4Yf+BiYGBAQVzoPEZGBiYfmARw4JZOBgxxAAZOwNj2DV2NwAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGP4wfiBiYGBARkzsP9jwBD7fxBT3Q97TDEsAAAAigfm9h/wvgAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGNgYPzAxMDAgIwZ/v9jQBdjYjhMlDoGLOYBAL5PB7q+z4YtAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAF0lEQVR4nGNgP/iBiYGBgRDGCv4TpxcAFTEEjR8I5HwAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGNgwALY/39gYmBgQME/mRjQxRj+/8MUY2DE0AsANFwGAm5LhW0AAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGP4wcDAxICKGdj/f0AXY/rJhEXdP0yxH4wYegGDtAcCn+rufQAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAHklEQVR4nGNgwAL+/2NgYmBAw4c/oIsx/LDHEMOGAVWYBfyNdABzAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAGklEQVR4nGP4wfiBiYGBARkzsP9jwBCjQB0AywsH7vH8OboAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGP4wfiBiYGBARkzsP9jwBD7wYAp9h+LOiwAAJhvBgStb6iFAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAHUlEQVR4nGP4wfiBiYGBARkzsP9jQBcjFjNgMQ8ANjwFBF3yIWUAAAAASUVORK5CYII="></td>
+    </tr>
+    <tr>
+      <th>(um bit errado)</th>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGP8z/CRiYGBAQUzOjBgiP1gwBTDglk4GDHEABXuA2ZsKbVjAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIElEQVR4nGP4f/ADEwMDAzJmYP/HgCGGTd0Pe0wxLAAATL8IrWC2ThoAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGNgP/iBiYGBARkz/P/HgC7GxHCYKHUMDIwY6gAKkwiBerUQVAAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAHklEQVR4nGNgYPzAxMDAgILZDzCgi2EF/w9i6sWCAQWlBI0tE1d8AAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJElEQVR4nGNgP8DAxMCAghnY/39AF2P6yYSp7v8/TDEGRgy9AINhBtHRKrBwAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJElEQVR4nGP4f4CBiYEBBTOw//+ALsb0kwmLun+YYj8YMfQCAM/pB8mxTqqAAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGNgP8DAxMCAghn+/8MQY2I4/AFD3Q97DDFsGACknQbLO4wNUwAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAHElEQVR4nGP4f/ADEwMDAzJmYP/HgCH2g5FsdQAXTwi15GDSRAAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGP4f/ADEwMDAzJmYP/HgCH2gwFT7D8WdVgAAOSkBstrnxZ4AAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAH0lEQVR4nGP4f/ADEwMDAzJmYP/HgC5GLGb4wYhhHgCCcQXLQXFgigAAAABJRU5ErkJggg=="></td>
+    </tr>
+    <tr>
+      <th>(dois bits errados)</th>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIElEQVR4nGP4Yf+BiYGBAQVz/BfAEPvBiKkOG+bAFAMAoS0FYIMkLPgAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJUlEQVR4nGP4wfiBiYGBAQXz/2PAEPtxCEOM4Yc9pl6O/wLoYgDhRggdtZNJuAAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGNgYPzAxMDAgIL//2PAEGM4hCHGgEUdA4M9hnkAjaEHCRsi2TsAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGNgP/iBiYGBARX/F0AXwwr+Y+pl/M/wEV0MAIqNB4s0nJDVAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIElEQVR4nGNgwALY/zEwMTCgYAYGxg8YYv+xqbPHUAcA64YFQx4IAo4AAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAHklEQVR4nGP4wcDAxICKGdj/YYoxMH4gSt0Pewx1ADrtBkO1sMbtAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGNgwASM/xk+MjEwMKDiQwzoYgw/7D9gijFiiAEAPZkG5pqJlkMAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJElEQVR4nGP4wfiBiYGBAQXz/2PAEPvIhCHGwI6pjuGHPYZ5AJwkB0JsTX+xAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGP4wfiBiYGBAQXz/2NAF2P4wYAp9h+LOgY7DDEAoDMGVFgDNuQAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGP4wfiBiYGBAQXz/2NAF2NgxxTDhhl+2GOYBwB4YQZPQss0OgAAAABJRU5ErkJggg=="></td>
+    </tr>
+    <tr>
+      <th>(Tres bits errados)</th>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJElEQVR4nGP4YcfAxMCAijkYMMQY/zN8xFD30wFDHQsHI4YYACRiBKK6DLYJAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGP4wcDAxICKGdj/f0AXY/rIhKGOicEOUy8WAABB4QREEriOLQAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJUlEQVR4nGNgwASM/xk+MjEwMKDgn0wM6GIM//9hijEwfkAXAwAzzwX9lYqifwAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAFklEQVR4nGNgP8DAxMBAHv7B+IEYdQCelwLh+Hv9ogAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGNgYPzAxMDAgIwZ2P8xoIsxMRzGVPcfUx0DFvMAcccGwsro9jEAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGP4wfiBiYGBARkzsP9jQBdjYjhMlDoGLOYBAL5PB7r3BLi2AAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGNgYPzAxMDAgIL//2PAEPvJhCnGYIdFDBMDAERFBFhc1TDvAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGP4wcDAxICKGdj/f0AXY/pxCIu6f5hiPxgx9AIArvkHwREBEWkAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIElEQVR4nGP4wcDAxICKGdj/f8AQ+38AU93/f5hiWAAAsrgGy0S0hjEAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGP4wcDAxICKGdj/f8AQY7DDou4fptgPRgy9AFdxBkPMbdckAAAAAElFTkSuQmCC"></td>
+    </tr>
+    <tr>
+      <th>Esta correto</th>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+    </tr>
+    <tr>
+      <th>Esta correto um bit errado</th>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+    </tr>
+    <tr>
+      <th>Esta correto dois bits errados</th>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Não (8)</td>
+      <td>Não (6)</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+    </tr>
+    <tr>
+      <th>Esta correto Tres bits errados</th>
+      <td>Sim</td>
+      <td>Não (6)</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Não (2)</td>
+      <td>Sim</td>
+      <td>Não (6)</td>
+      <td>Sim</td>
+      <td>Não (6)</td>
+    </tr>
+  </tbody>
+</table><h1>Neural network com 15 neurons, 10000 epochs, 0.0005 goal, 0.4 learning rate, 0.0 momentum</h1><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>0</th>
+      <th>1</th>
+      <th>2</th>
+      <th>3</th>
+      <th>4</th>
+      <th>5</th>
+      <th>6</th>
+      <th>7</th>
+      <th>8</th>
+      <th>9</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Entrada</th>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGP4Yf+BiYGBAQVzoPEZGBiYfmARw4JZOBgxxAAZOwNj2DV2NwAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGP4wfiBiYGBARkzsP9jwBD7fxBT3Q97TDEsAAAAigfm9h/wvgAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGNgYPzAxMDAgIwZ/v9jQBdjYjhMlDoGLOYBAL5PB7q+z4YtAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAF0lEQVR4nGNgP/iBiYGBgRDGCv4TpxcAFTEEjR8I5HwAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGNgwALY/39gYmBgQME/mRjQxRj+/8MUY2DE0AsANFwGAm5LhW0AAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGP4wcDAxICKGdj/f0AXY/rJhEXdP0yxH4wYegGDtAcCn+rufQAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAHklEQVR4nGNgwAL+/2NgYmBAw4c/oIsx/LDHEMOGAVWYBfyNdABzAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAGklEQVR4nGP4wfiBiYGBARkzsP9jwBCjQB0AywsH7vH8OboAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGP4wfiBiYGBARkzsP9jwBD7wYAp9h+LOiwAAJhvBgStb6iFAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAHUlEQVR4nGP4wfiBiYGBARkzsP9jQBcjFjNgMQ8ANjwFBF3yIWUAAAAASUVORK5CYII="></td>
+    </tr>
+    <tr>
+      <th>(um bit errado)</th>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGP8z/CRiYGBAQUzOjBgiP1gwBTDglk4GDHEABXuA2ZsKbVjAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIElEQVR4nGP4f/ADEwMDAzJmYP/HgCGGTd0Pe0wxLAAATL8IrWC2ThoAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGNgP/iBiYGBARkz/P/HgC7GxHCYKHUMDIwY6gAKkwiBerUQVAAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAHklEQVR4nGNgYPzAxMDAgILZDzCgi2EF/w9i6sWCAQWlBI0tE1d8AAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJElEQVR4nGNgP8DAxMCAghnY/39AF2P6yYSp7v8/TDEGRgy9AINhBtHRKrBwAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJElEQVR4nGP4f4CBiYEBBTOw//+ALsb0kwmLun+YYj8YMfQCAM/pB8mxTqqAAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGNgP8DAxMCAghn+/8MQY2I4/AFD3Q97DDFsGACknQbLO4wNUwAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAHElEQVR4nGP4f/ADEwMDAzJmYP/HgCH2g5FsdQAXTwi15GDSRAAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGP4f/ADEwMDAzJmYP/HgCH2gwFT7D8WdVgAAOSkBstrnxZ4AAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAH0lEQVR4nGP4f/ADEwMDAzJmYP/HgC5GLGb4wYhhHgCCcQXLQXFgigAAAABJRU5ErkJggg=="></td>
+    </tr>
+    <tr>
+      <th>(dois bits errados)</th>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIElEQVR4nGP4Yf+BiYGBAQVz/BfAEPvBiKkOG+bAFAMAoS0FYIMkLPgAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJUlEQVR4nGP4wfiBiYGBAQXz/2PAEPtxCEOM4Yc9pl6O/wLoYgDhRggdtZNJuAAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGNgYPzAxMDAgIL//2PAEGM4hCHGgEUdA4M9hnkAjaEHCRsi2TsAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGNgP/iBiYGBARX/F0AXwwr+Y+pl/M/wEV0MAIqNB4s0nJDVAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIElEQVR4nGNgwALY/zEwMTCgYAYGxg8YYv+xqbPHUAcA64YFQx4IAo4AAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAHklEQVR4nGP4wcDAxICKGdj/YYoxMH4gSt0Pewx1ADrtBkO1sMbtAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGNgwASM/xk+MjEwMKDiQwzoYgw/7D9gijFiiAEAPZkG5pqJlkMAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJElEQVR4nGP4wfiBiYGBAQXz/2PAEPvIhCHGwI6pjuGHPYZ5AJwkB0JsTX+xAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGP4wfiBiYGBAQXz/2NAF2P4wYAp9h+LOgY7DDEAoDMGVFgDNuQAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGP4wfiBiYGBAQXz/2NAF2NgxxTDhhl+2GOYBwB4YQZPQss0OgAAAABJRU5ErkJggg=="></td>
+    </tr>
+    <tr>
+      <th>(Tres bits errados)</th>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJElEQVR4nGP4YcfAxMCAijkYMMQY/zN8xFD30wFDHQsHI4YYACRiBKK6DLYJAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGP4wcDAxICKGdj/f0AXY/rIhKGOicEOUy8WAABB4QREEriOLQAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJUlEQVR4nGNgwASM/xk+MjEwMKDgn0wM6GIM//9hijEwfkAXAwAzzwX9lYqifwAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAFklEQVR4nGNgP8DAxMBAHv7B+IEYdQCelwLh+Hv9ogAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGNgYPzAxMDAgIwZ2P8xoIsxMRzGVPcfUx0DFvMAcccGwsro9jEAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGP4wfiBiYGBARkzsP9jQBdjYjhMlDoGLOYBAL5PB7r3BLi2AAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGNgYPzAxMDAgIL//2PAEPvJhCnGYIdFDBMDAERFBFhc1TDvAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGP4wcDAxICKGdj/f0AXY/pxCIu6f5hiPxgx9AIArvkHwREBEWkAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIElEQVR4nGP4wcDAxICKGdj/f8AQ+38AU93/f5hiWAAAsrgGy0S0hjEAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGP4wcDAxICKGdj/f8AQY7DDou4fptgPRgy9AFdxBkPMbdckAAAAAElFTkSuQmCC"></td>
+    </tr>
+    <tr>
+      <th>Esta correto</th>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+    </tr>
+    <tr>
+      <th>Esta correto um bit errado</th>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+    </tr>
+    <tr>
+      <th>Esta correto dois bits errados</th>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Não (8)</td>
+      <td>Não (6)</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+    </tr>
+    <tr>
+      <th>Esta correto Tres bits errados</th>
+      <td>Sim</td>
+      <td>Não (6)</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Não (0)</td>
+      <td>Sim</td>
+      <td>Não (6)</td>
+      <td>Não (6)</td>
+      <td>Não (6)</td>
+    </tr>
+  </tbody>
+</table><h1>Neural network com 15 neurons, 10000 epochs, 0.0005 goal, 0.9 learning rate, 0.0 momentum</h1><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>0</th>
+      <th>1</th>
+      <th>2</th>
+      <th>3</th>
+      <th>4</th>
+      <th>5</th>
+      <th>6</th>
+      <th>7</th>
+      <th>8</th>
+      <th>9</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Entrada</th>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGP4Yf+BiYGBAQVzoPEZGBiYfmARw4JZOBgxxAAZOwNj2DV2NwAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGP4wfiBiYGBARkzsP9jwBD7fxBT3Q97TDEsAAAAigfm9h/wvgAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGNgYPzAxMDAgIwZ/v9jQBdjYjhMlDoGLOYBAL5PB7q+z4YtAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAF0lEQVR4nGNgP/iBiYGBgRDGCv4TpxcAFTEEjR8I5HwAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGNgwALY/39gYmBgQME/mRjQxRj+/8MUY2DE0AsANFwGAm5LhW0AAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGP4wcDAxICKGdj/f0AXY/rJhEXdP0yxH4wYegGDtAcCn+rufQAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAHklEQVR4nGNgwAL+/2NgYmBAw4c/oIsx/LDHEMOGAVWYBfyNdABzAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAGklEQVR4nGP4wfiBiYGBARkzsP9jwBCjQB0AywsH7vH8OboAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGP4wfiBiYGBARkzsP9jwBD7wYAp9h+LOiwAAJhvBgStb6iFAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAHUlEQVR4nGP4wfiBiYGBARkzsP9jQBcjFjNgMQ8ANjwFBF3yIWUAAAAASUVORK5CYII="></td>
+    </tr>
+    <tr>
+      <th>(um bit errado)</th>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGP8z/CRiYGBAQUzOjBgiP1gwBTDglk4GDHEABXuA2ZsKbVjAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIElEQVR4nGP4f/ADEwMDAzJmYP/HgCGGTd0Pe0wxLAAATL8IrWC2ThoAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGNgP/iBiYGBARkz/P/HgC7GxHCYKHUMDIwY6gAKkwiBerUQVAAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAHklEQVR4nGNgYPzAxMDAgILZDzCgi2EF/w9i6sWCAQWlBI0tE1d8AAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJElEQVR4nGNgP8DAxMCAghnY/39AF2P6yYSp7v8/TDEGRgy9AINhBtHRKrBwAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJElEQVR4nGP4f4CBiYEBBTOw//+ALsb0kwmLun+YYj8YMfQCAM/pB8mxTqqAAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGNgP8DAxMCAghn+/8MQY2I4/AFD3Q97DDFsGACknQbLO4wNUwAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAHElEQVR4nGP4f/ADEwMDAzJmYP/HgCH2g5FsdQAXTwi15GDSRAAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGP4f/ADEwMDAzJmYP/HgCH2gwFT7D8WdVgAAOSkBstrnxZ4AAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAH0lEQVR4nGP4f/ADEwMDAzJmYP/HgC5GLGb4wYhhHgCCcQXLQXFgigAAAABJRU5ErkJggg=="></td>
+    </tr>
+    <tr>
+      <th>(dois bits errados)</th>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIElEQVR4nGP4Yf+BiYGBAQVz/BfAEPvBiKkOG+bAFAMAoS0FYIMkLPgAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJUlEQVR4nGP4wfiBiYGBAQXz/2PAEPtxCEOM4Yc9pl6O/wLoYgDhRggdtZNJuAAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGNgYPzAxMDAgIL//2PAEGM4hCHGgEUdA4M9hnkAjaEHCRsi2TsAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGNgP/iBiYGBARX/F0AXwwr+Y+pl/M/wEV0MAIqNB4s0nJDVAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIElEQVR4nGNgwALY/zEwMTCgYAYGxg8YYv+xqbPHUAcA64YFQx4IAo4AAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAHklEQVR4nGP4wcDAxICKGdj/YYoxMH4gSt0Pewx1ADrtBkO1sMbtAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGNgwASM/xk+MjEwMKDiQwzoYgw/7D9gijFiiAEAPZkG5pqJlkMAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJElEQVR4nGP4wfiBiYGBAQXz/2PAEPvIhCHGwI6pjuGHPYZ5AJwkB0JsTX+xAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGP4wfiBiYGBAQXz/2NAF2P4wYAp9h+LOgY7DDEAoDMGVFgDNuQAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGP4wfiBiYGBAQXz/2NAF2NgxxTDhhl+2GOYBwB4YQZPQss0OgAAAABJRU5ErkJggg=="></td>
+    </tr>
+    <tr>
+      <th>(Tres bits errados)</th>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJElEQVR4nGP4YcfAxMCAijkYMMQY/zN8xFD30wFDHQsHI4YYACRiBKK6DLYJAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGP4wcDAxICKGdj/f0AXY/rIhKGOicEOUy8WAABB4QREEriOLQAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJUlEQVR4nGNgwASM/xk+MjEwMKDgn0wM6GIM//9hijEwfkAXAwAzzwX9lYqifwAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAFklEQVR4nGNgP8DAxMBAHv7B+IEYdQCelwLh+Hv9ogAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGNgYPzAxMDAgIwZ2P8xoIsxMRzGVPcfUx0DFvMAcccGwsro9jEAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGP4wfiBiYGBARkzsP9jQBdjYjhMlDoGLOYBAL5PB7r3BLi2AAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGNgYPzAxMDAgIL//2PAEPvJhCnGYIdFDBMDAERFBFhc1TDvAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGP4wcDAxICKGdj/f0AXY/pxCIu6f5hiPxgx9AIArvkHwREBEWkAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIElEQVR4nGP4wcDAxICKGdj/f8AQ+38AU93/f5hiWAAAsrgGy0S0hjEAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGP4wcDAxICKGdj/f8AQY7DDou4fptgPRgy9AFdxBkPMbdckAAAAAElFTkSuQmCC"></td>
+    </tr>
+    <tr>
+      <th>Esta correto</th>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+    </tr>
+    <tr>
+      <th>Esta correto um bit errado</th>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+    </tr>
+    <tr>
+      <th>Esta correto dois bits errados</th>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Não (8)</td>
+      <td>Não (6)</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+    </tr>
+    <tr>
+      <th>Esta correto Tres bits errados</th>
+      <td>Sim</td>
+      <td>Não (6)</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Não (2)</td>
+      <td>Sim</td>
+      <td>Não (6)</td>
+      <td>Não (6)</td>
+      <td>Não (6)</td>
+    </tr>
+  </tbody>
+</table><h1>Neural network com 15 neurons, 10000 epochs, 0.0005 goal, 0.1 learning rate, 0.4 momentum</h1><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>0</th>
+      <th>1</th>
+      <th>2</th>
+      <th>3</th>
+      <th>4</th>
+      <th>5</th>
+      <th>6</th>
+      <th>7</th>
+      <th>8</th>
+      <th>9</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Entrada</th>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGP4Yf+BiYGBAQVzoPEZGBiYfmARw4JZOBgxxAAZOwNj2DV2NwAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGP4wfiBiYGBARkzsP9jwBD7fxBT3Q97TDEsAAAAigfm9h/wvgAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGNgYPzAxMDAgIwZ/v9jQBdjYjhMlDoGLOYBAL5PB7q+z4YtAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAF0lEQVR4nGNgP/iBiYGBgRDGCv4TpxcAFTEEjR8I5HwAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGNgwALY/39gYmBgQME/mRjQxRj+/8MUY2DE0AsANFwGAm5LhW0AAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGP4wcDAxICKGdj/f0AXY/rJhEXdP0yxH4wYegGDtAcCn+rufQAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAHklEQVR4nGNgwAL+/2NgYmBAw4c/oIsx/LDHEMOGAVWYBfyNdABzAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAGklEQVR4nGP4wfiBiYGBARkzsP9jwBCjQB0AywsH7vH8OboAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGP4wfiBiYGBARkzsP9jwBD7wYAp9h+LOiwAAJhvBgStb6iFAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAHUlEQVR4nGP4wfiBiYGBARkzsP9jQBcjFjNgMQ8ANjwFBF3yIWUAAAAASUVORK5CYII="></td>
+    </tr>
+    <tr>
+      <th>(um bit errado)</th>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGP8z/CRiYGBAQUzOjBgiP1gwBTDglk4GDHEABXuA2ZsKbVjAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIElEQVR4nGP4f/ADEwMDAzJmYP/HgCGGTd0Pe0wxLAAATL8IrWC2ThoAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGNgP/iBiYGBARkz/P/HgC7GxHCYKHUMDIwY6gAKkwiBerUQVAAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAHklEQVR4nGNgYPzAxMDAgILZDzCgi2EF/w9i6sWCAQWlBI0tE1d8AAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJElEQVR4nGNgP8DAxMCAghnY/39AF2P6yYSp7v8/TDEGRgy9AINhBtHRKrBwAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJElEQVR4nGP4f4CBiYEBBTOw//+ALsb0kwmLun+YYj8YMfQCAM/pB8mxTqqAAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGNgP8DAxMCAghn+/8MQY2I4/AFD3Q97DDFsGACknQbLO4wNUwAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAHElEQVR4nGP4f/ADEwMDAzJmYP/HgCH2g5FsdQAXTwi15GDSRAAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGP4f/ADEwMDAzJmYP/HgCH2gwFT7D8WdVgAAOSkBstrnxZ4AAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAH0lEQVR4nGP4f/ADEwMDAzJmYP/HgC5GLGb4wYhhHgCCcQXLQXFgigAAAABJRU5ErkJggg=="></td>
+    </tr>
+    <tr>
+      <th>(dois bits errados)</th>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIElEQVR4nGP4Yf+BiYGBAQVz/BfAEPvBiKkOG+bAFAMAoS0FYIMkLPgAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJUlEQVR4nGP4wfiBiYGBAQXz/2PAEPtxCEOM4Yc9pl6O/wLoYgDhRggdtZNJuAAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGNgYPzAxMDAgIL//2PAEGM4hCHGgEUdA4M9hnkAjaEHCRsi2TsAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGNgP/iBiYGBARX/F0AXwwr+Y+pl/M/wEV0MAIqNB4s0nJDVAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIElEQVR4nGNgwALY/zEwMTCgYAYGxg8YYv+xqbPHUAcA64YFQx4IAo4AAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAHklEQVR4nGP4wcDAxICKGdj/YYoxMH4gSt0Pewx1ADrtBkO1sMbtAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGNgwASM/xk+MjEwMKDiQwzoYgw/7D9gijFiiAEAPZkG5pqJlkMAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJElEQVR4nGP4wfiBiYGBAQXz/2PAEPvIhCHGwI6pjuGHPYZ5AJwkB0JsTX+xAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGP4wfiBiYGBAQXz/2NAF2P4wYAp9h+LOgY7DDEAoDMGVFgDNuQAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGP4wfiBiYGBAQXz/2NAF2NgxxTDhhl+2GOYBwB4YQZPQss0OgAAAABJRU5ErkJggg=="></td>
+    </tr>
+    <tr>
+      <th>(Tres bits errados)</th>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJElEQVR4nGP4YcfAxMCAijkYMMQY/zN8xFD30wFDHQsHI4YYACRiBKK6DLYJAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGP4wcDAxICKGdj/f0AXY/rIhKGOicEOUy8WAABB4QREEriOLQAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJUlEQVR4nGNgwASM/xk+MjEwMKDgn0wM6GIM//9hijEwfkAXAwAzzwX9lYqifwAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAFklEQVR4nGNgP8DAxMBAHv7B+IEYdQCelwLh+Hv9ogAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGNgYPzAxMDAgIwZ2P8xoIsxMRzGVPcfUx0DFvMAcccGwsro9jEAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGP4wfiBiYGBARkzsP9jQBdjYjhMlDoGLOYBAL5PB7r3BLi2AAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGNgYPzAxMDAgIL//2PAEPvJhCnGYIdFDBMDAERFBFhc1TDvAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGP4wcDAxICKGdj/f0AXY/pxCIu6f5hiPxgx9AIArvkHwREBEWkAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIElEQVR4nGP4wcDAxICKGdj/f8AQ+38AU93/f5hiWAAAsrgGy0S0hjEAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGP4wcDAxICKGdj/f8AQY7DDou4fptgPRgy9AFdxBkPMbdckAAAAAElFTkSuQmCC"></td>
+    </tr>
+    <tr>
+      <th>Esta correto</th>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+    </tr>
+    <tr>
+      <th>Esta correto um bit errado</th>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+    </tr>
+    <tr>
+      <th>Esta correto dois bits errados</th>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Não (8)</td>
+      <td>Não (6)</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+    </tr>
+    <tr>
+      <th>Esta correto Tres bits errados</th>
+      <td>Sim</td>
+      <td>Não (6)</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Não (2)</td>
+      <td>Sim</td>
+      <td>Não (6)</td>
+      <td>Não (6)</td>
+      <td>Não (6)</td>
+    </tr>
+  </tbody>
+</table><h1>Neural network com 15 neurons, 10000 epochs, 0.0005 goal, 0.9 learning rate, 0.4 momentum</h1><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>0</th>
+      <th>1</th>
+      <th>2</th>
+      <th>3</th>
+      <th>4</th>
+      <th>5</th>
+      <th>6</th>
+      <th>7</th>
+      <th>8</th>
+      <th>9</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Entrada</th>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGP4Yf+BiYGBAQVzoPEZGBiYfmARw4JZOBgxxAAZOwNj2DV2NwAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGP4wfiBiYGBARkzsP9jwBD7fxBT3Q97TDEsAAAAigfm9h/wvgAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGNgYPzAxMDAgIwZ/v9jQBdjYjhMlDoGLOYBAL5PB7q+z4YtAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAF0lEQVR4nGNgP/iBiYGBgRDGCv4TpxcAFTEEjR8I5HwAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGNgwALY/39gYmBgQME/mRjQxRj+/8MUY2DE0AsANFwGAm5LhW0AAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGP4wcDAxICKGdj/f0AXY/rJhEXdP0yxH4wYegGDtAcCn+rufQAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAHklEQVR4nGNgwAL+/2NgYmBAw4c/oIsx/LDHEMOGAVWYBfyNdABzAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAGklEQVR4nGP4wfiBiYGBARkzsP9jwBCjQB0AywsH7vH8OboAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGP4wfiBiYGBARkzsP9jwBD7wYAp9h+LOiwAAJhvBgStb6iFAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAHUlEQVR4nGP4wfiBiYGBARkzsP9jQBcjFjNgMQ8ANjwFBF3yIWUAAAAASUVORK5CYII="></td>
+    </tr>
+    <tr>
+      <th>(um bit errado)</th>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGP8z/CRiYGBAQUzOjBgiP1gwBTDglk4GDHEABXuA2ZsKbVjAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIElEQVR4nGP4f/ADEwMDAzJmYP/HgCGGTd0Pe0wxLAAATL8IrWC2ThoAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGNgP/iBiYGBARkz/P/HgC7GxHCYKHUMDIwY6gAKkwiBerUQVAAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAHklEQVR4nGNgYPzAxMDAgILZDzCgi2EF/w9i6sWCAQWlBI0tE1d8AAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJElEQVR4nGNgP8DAxMCAghnY/39AF2P6yYSp7v8/TDEGRgy9AINhBtHRKrBwAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJElEQVR4nGP4f4CBiYEBBTOw//+ALsb0kwmLun+YYj8YMfQCAM/pB8mxTqqAAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGNgP8DAxMCAghn+/8MQY2I4/AFD3Q97DDFsGACknQbLO4wNUwAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAHElEQVR4nGP4f/ADEwMDAzJmYP/HgCH2g5FsdQAXTwi15GDSRAAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGP4f/ADEwMDAzJmYP/HgCH2gwFT7D8WdVgAAOSkBstrnxZ4AAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAH0lEQVR4nGP4f/ADEwMDAzJmYP/HgC5GLGb4wYhhHgCCcQXLQXFgigAAAABJRU5ErkJggg=="></td>
+    </tr>
+    <tr>
+      <th>(dois bits errados)</th>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIElEQVR4nGP4Yf+BiYGBAQVz/BfAEPvBiKkOG+bAFAMAoS0FYIMkLPgAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJUlEQVR4nGP4wfiBiYGBAQXz/2PAEPtxCEOM4Yc9pl6O/wLoYgDhRggdtZNJuAAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGNgYPzAxMDAgIL//2PAEGM4hCHGgEUdA4M9hnkAjaEHCRsi2TsAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGNgP/iBiYGBARX/F0AXwwr+Y+pl/M/wEV0MAIqNB4s0nJDVAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIElEQVR4nGNgwALY/zEwMTCgYAYGxg8YYv+xqbPHUAcA64YFQx4IAo4AAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAHklEQVR4nGP4wcDAxICKGdj/YYoxMH4gSt0Pewx1ADrtBkO1sMbtAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGNgwASM/xk+MjEwMKDiQwzoYgw/7D9gijFiiAEAPZkG5pqJlkMAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJElEQVR4nGP4wfiBiYGBAQXz/2PAEPvIhCHGwI6pjuGHPYZ5AJwkB0JsTX+xAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGP4wfiBiYGBAQXz/2NAF2P4wYAp9h+LOgY7DDEAoDMGVFgDNuQAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGP4wfiBiYGBAQXz/2NAF2NgxxTDhhl+2GOYBwB4YQZPQss0OgAAAABJRU5ErkJggg=="></td>
+    </tr>
+    <tr>
+      <th>(Tres bits errados)</th>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJElEQVR4nGP4YcfAxMCAijkYMMQY/zN8xFD30wFDHQsHI4YYACRiBKK6DLYJAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGP4wcDAxICKGdj/f0AXY/rIhKGOicEOUy8WAABB4QREEriOLQAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJUlEQVR4nGNgwASM/xk+MjEwMKDgn0wM6GIM//9hijEwfkAXAwAzzwX9lYqifwAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAFklEQVR4nGNgP8DAxMBAHv7B+IEYdQCelwLh+Hv9ogAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGNgYPzAxMDAgIwZ2P8xoIsxMRzGVPcfUx0DFvMAcccGwsro9jEAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGP4wfiBiYGBARkzsP9jQBdjYjhMlDoGLOYBAL5PB7r3BLi2AAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGNgYPzAxMDAgIL//2PAEPvJhCnGYIdFDBMDAERFBFhc1TDvAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGP4wcDAxICKGdj/f0AXY/pxCIu6f5hiPxgx9AIArvkHwREBEWkAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIElEQVR4nGP4wcDAxICKGdj/f8AQ+38AU93/f5hiWAAAsrgGy0S0hjEAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGP4wcDAxICKGdj/f8AQY7DDou4fptgPRgy9AFdxBkPMbdckAAAAAElFTkSuQmCC"></td>
+    </tr>
+    <tr>
+      <th>Esta correto</th>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+    </tr>
+    <tr>
+      <th>Esta correto um bit errado</th>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+    </tr>
+    <tr>
+      <th>Esta correto dois bits errados</th>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Não (8)</td>
+      <td>Não (6)</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+    </tr>
+    <tr>
+      <th>Esta correto Tres bits errados</th>
+      <td>Sim</td>
+      <td>Não (6)</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Não (2)</td>
+      <td>Sim</td>
+      <td>Não (6)</td>
+      <td>Não (6)</td>
+      <td>Não (6)</td>
+    </tr>
+  </tbody>
+</table><h1>Neural network com 25 neurons, 10000 epochs, 0.0005 goal, 0.1 learning rate, 0.0 momentum</h1><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>0</th>
+      <th>1</th>
+      <th>2</th>
+      <th>3</th>
+      <th>4</th>
+      <th>5</th>
+      <th>6</th>
+      <th>7</th>
+      <th>8</th>
+      <th>9</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Entrada</th>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGP4Yf+BiYGBAQVzoPEZGBiYfmARw4JZOBgxxAAZOwNj2DV2NwAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGP4wfiBiYGBARkzsP9jwBD7fxBT3Q97TDEsAAAAigfm9h/wvgAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGNgYPzAxMDAgIwZ/v9jQBdjYjhMlDoGLOYBAL5PB7q+z4YtAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAF0lEQVR4nGNgP/iBiYGBgRDGCv4TpxcAFTEEjR8I5HwAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGNgwALY/39gYmBgQME/mRjQxRj+/8MUY2DE0AsANFwGAm5LhW0AAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGP4wcDAxICKGdj/f0AXY/rJhEXdP0yxH4wYegGDtAcCn+rufQAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAHklEQVR4nGNgwAL+/2NgYmBAw4c/oIsx/LDHEMOGAVWYBfyNdABzAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAGklEQVR4nGP4wfiBiYGBARkzsP9jwBCjQB0AywsH7vH8OboAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGP4wfiBiYGBARkzsP9jwBD7wYAp9h+LOiwAAJhvBgStb6iFAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAHUlEQVR4nGP4wfiBiYGBARkzsP9jQBcjFjNgMQ8ANjwFBF3yIWUAAAAASUVORK5CYII="></td>
+    </tr>
+    <tr>
+      <th>(um bit errado)</th>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGP8z/CRiYGBAQUzOjBgiP1gwBTDglk4GDHEABXuA2ZsKbVjAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIElEQVR4nGP4f/ADEwMDAzJmYP/HgCGGTd0Pe0wxLAAATL8IrWC2ThoAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGNgP/iBiYGBARkz/P/HgC7GxHCYKHUMDIwY6gAKkwiBerUQVAAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAHklEQVR4nGNgYPzAxMDAgILZDzCgi2EF/w9i6sWCAQWlBI0tE1d8AAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJElEQVR4nGNgP8DAxMCAghnY/39AF2P6yYSp7v8/TDEGRgy9AINhBtHRKrBwAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJElEQVR4nGP4f4CBiYEBBTOw//+ALsb0kwmLun+YYj8YMfQCAM/pB8mxTqqAAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGNgP8DAxMCAghn+/8MQY2I4/AFD3Q97DDFsGACknQbLO4wNUwAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAHElEQVR4nGP4f/ADEwMDAzJmYP/HgCH2g5FsdQAXTwi15GDSRAAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGP4f/ADEwMDAzJmYP/HgCH2gwFT7D8WdVgAAOSkBstrnxZ4AAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAH0lEQVR4nGP4f/ADEwMDAzJmYP/HgC5GLGb4wYhhHgCCcQXLQXFgigAAAABJRU5ErkJggg=="></td>
+    </tr>
+    <tr>
+      <th>(dois bits errados)</th>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIElEQVR4nGP4Yf+BiYGBAQVz/BfAEPvBiKkOG+bAFAMAoS0FYIMkLPgAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJUlEQVR4nGP4wfiBiYGBAQXz/2PAEPtxCEOM4Yc9pl6O/wLoYgDhRggdtZNJuAAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGNgYPzAxMDAgIL//2PAEGM4hCHGgEUdA4M9hnkAjaEHCRsi2TsAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGNgP/iBiYGBARX/F0AXwwr+Y+pl/M/wEV0MAIqNB4s0nJDVAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIElEQVR4nGNgwALY/zEwMTCgYAYGxg8YYv+xqbPHUAcA64YFQx4IAo4AAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAHklEQVR4nGP4wcDAxICKGdj/YYoxMH4gSt0Pewx1ADrtBkO1sMbtAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGNgwASM/xk+MjEwMKDiQwzoYgw/7D9gijFiiAEAPZkG5pqJlkMAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJElEQVR4nGP4wfiBiYGBAQXz/2PAEPvIhCHGwI6pjuGHPYZ5AJwkB0JsTX+xAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGP4wfiBiYGBAQXz/2NAF2P4wYAp9h+LOgY7DDEAoDMGVFgDNuQAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGP4wfiBiYGBAQXz/2NAF2NgxxTDhhl+2GOYBwB4YQZPQss0OgAAAABJRU5ErkJggg=="></td>
+    </tr>
+    <tr>
+      <th>(Tres bits errados)</th>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJElEQVR4nGP4YcfAxMCAijkYMMQY/zN8xFD30wFDHQsHI4YYACRiBKK6DLYJAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGP4wcDAxICKGdj/f0AXY/rIhKGOicEOUy8WAABB4QREEriOLQAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJUlEQVR4nGNgwASM/xk+MjEwMKDgn0wM6GIM//9hijEwfkAXAwAzzwX9lYqifwAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAFklEQVR4nGNgP8DAxMBAHv7B+IEYdQCelwLh+Hv9ogAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGNgYPzAxMDAgIwZ2P8xoIsxMRzGVPcfUx0DFvMAcccGwsro9jEAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGP4wfiBiYGBARkzsP9jQBdjYjhMlDoGLOYBAL5PB7r3BLi2AAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGNgYPzAxMDAgIL//2PAEPvJhCnGYIdFDBMDAERFBFhc1TDvAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGP4wcDAxICKGdj/f0AXY/pxCIu6f5hiPxgx9AIArvkHwREBEWkAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIElEQVR4nGP4wcDAxICKGdj/f8AQ+38AU93/f5hiWAAAsrgGy0S0hjEAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGP4wcDAxICKGdj/f8AQY7DDou4fptgPRgy9AFdxBkPMbdckAAAAAElFTkSuQmCC"></td>
+    </tr>
+    <tr>
+      <th>Esta correto</th>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+    </tr>
+    <tr>
+      <th>Esta correto um bit errado</th>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+    </tr>
+    <tr>
+      <th>Esta correto dois bits errados</th>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Não (8)</td>
+      <td>Não (6)</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+    </tr>
+    <tr>
+      <th>Esta correto Tres bits errados</th>
+      <td>Sim</td>
+      <td>Não (6)</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Não (2)</td>
+      <td>Sim</td>
+      <td>Não (6)</td>
+      <td>Sim</td>
+      <td>Não (6)</td>
+    </tr>
+  </tbody>
+</table><h1>Neural network com 25 neurons, 10000 epochs, 0.0005 goal, 0.4 learning rate, 0.0 momentum</h1><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>0</th>
+      <th>1</th>
+      <th>2</th>
+      <th>3</th>
+      <th>4</th>
+      <th>5</th>
+      <th>6</th>
+      <th>7</th>
+      <th>8</th>
+      <th>9</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Entrada</th>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGP4Yf+BiYGBAQVzoPEZGBiYfmARw4JZOBgxxAAZOwNj2DV2NwAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGP4wfiBiYGBARkzsP9jwBD7fxBT3Q97TDEsAAAAigfm9h/wvgAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGNgYPzAxMDAgIwZ/v9jQBdjYjhMlDoGLOYBAL5PB7q+z4YtAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAF0lEQVR4nGNgP/iBiYGBgRDGCv4TpxcAFTEEjR8I5HwAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGNgwALY/39gYmBgQME/mRjQxRj+/8MUY2DE0AsANFwGAm5LhW0AAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGP4wcDAxICKGdj/f0AXY/rJhEXdP0yxH4wYegGDtAcCn+rufQAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAHklEQVR4nGNgwAL+/2NgYmBAw4c/oIsx/LDHEMOGAVWYBfyNdABzAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAGklEQVR4nGP4wfiBiYGBARkzsP9jwBCjQB0AywsH7vH8OboAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGP4wfiBiYGBARkzsP9jwBD7wYAp9h+LOiwAAJhvBgStb6iFAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAHUlEQVR4nGP4wfiBiYGBARkzsP9jQBcjFjNgMQ8ANjwFBF3yIWUAAAAASUVORK5CYII="></td>
+    </tr>
+    <tr>
+      <th>(um bit errado)</th>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGP8z/CRiYGBAQUzOjBgiP1gwBTDglk4GDHEABXuA2ZsKbVjAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIElEQVR4nGP4f/ADEwMDAzJmYP/HgCGGTd0Pe0wxLAAATL8IrWC2ThoAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGNgP/iBiYGBARkz/P/HgC7GxHCYKHUMDIwY6gAKkwiBerUQVAAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAHklEQVR4nGNgYPzAxMDAgILZDzCgi2EF/w9i6sWCAQWlBI0tE1d8AAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJElEQVR4nGNgP8DAxMCAghnY/39AF2P6yYSp7v8/TDEGRgy9AINhBtHRKrBwAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJElEQVR4nGP4f4CBiYEBBTOw//+ALsb0kwmLun+YYj8YMfQCAM/pB8mxTqqAAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGNgP8DAxMCAghn+/8MQY2I4/AFD3Q97DDFsGACknQbLO4wNUwAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAHElEQVR4nGP4f/ADEwMDAzJmYP/HgCH2g5FsdQAXTwi15GDSRAAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGP4f/ADEwMDAzJmYP/HgCH2gwFT7D8WdVgAAOSkBstrnxZ4AAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAH0lEQVR4nGP4f/ADEwMDAzJmYP/HgC5GLGb4wYhhHgCCcQXLQXFgigAAAABJRU5ErkJggg=="></td>
+    </tr>
+    <tr>
+      <th>(dois bits errados)</th>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIElEQVR4nGP4Yf+BiYGBAQVz/BfAEPvBiKkOG+bAFAMAoS0FYIMkLPgAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJUlEQVR4nGP4wfiBiYGBAQXz/2PAEPtxCEOM4Yc9pl6O/wLoYgDhRggdtZNJuAAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGNgYPzAxMDAgIL//2PAEGM4hCHGgEUdA4M9hnkAjaEHCRsi2TsAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGNgP/iBiYGBARX/F0AXwwr+Y+pl/M/wEV0MAIqNB4s0nJDVAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIElEQVR4nGNgwALY/zEwMTCgYAYGxg8YYv+xqbPHUAcA64YFQx4IAo4AAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAHklEQVR4nGP4wcDAxICKGdj/YYoxMH4gSt0Pewx1ADrtBkO1sMbtAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGNgwASM/xk+MjEwMKDiQwzoYgw/7D9gijFiiAEAPZkG5pqJlkMAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJElEQVR4nGP4wfiBiYGBAQXz/2PAEPvIhCHGwI6pjuGHPYZ5AJwkB0JsTX+xAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGP4wfiBiYGBAQXz/2NAF2P4wYAp9h+LOgY7DDEAoDMGVFgDNuQAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGP4wfiBiYGBAQXz/2NAF2NgxxTDhhl+2GOYBwB4YQZPQss0OgAAAABJRU5ErkJggg=="></td>
+    </tr>
+    <tr>
+      <th>(Tres bits errados)</th>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJElEQVR4nGP4YcfAxMCAijkYMMQY/zN8xFD30wFDHQsHI4YYACRiBKK6DLYJAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGP4wcDAxICKGdj/f0AXY/rIhKGOicEOUy8WAABB4QREEriOLQAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJUlEQVR4nGNgwASM/xk+MjEwMKDgn0wM6GIM//9hijEwfkAXAwAzzwX9lYqifwAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAFklEQVR4nGNgP8DAxMBAHv7B+IEYdQCelwLh+Hv9ogAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGNgYPzAxMDAgIwZ2P8xoIsxMRzGVPcfUx0DFvMAcccGwsro9jEAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGP4wfiBiYGBARkzsP9jQBdjYjhMlDoGLOYBAL5PB7r3BLi2AAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGNgYPzAxMDAgIL//2PAEPvJhCnGYIdFDBMDAERFBFhc1TDvAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGP4wcDAxICKGdj/f0AXY/pxCIu6f5hiPxgx9AIArvkHwREBEWkAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIElEQVR4nGP4wcDAxICKGdj/f8AQ+38AU93/f5hiWAAAsrgGy0S0hjEAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGP4wcDAxICKGdj/f8AQY7DDou4fptgPRgy9AFdxBkPMbdckAAAAAElFTkSuQmCC"></td>
+    </tr>
+    <tr>
+      <th>Esta correto</th>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+    </tr>
+    <tr>
+      <th>Esta correto um bit errado</th>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+    </tr>
+    <tr>
+      <th>Esta correto dois bits errados</th>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Não (7)</td>
+      <td>Não (6)</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+    </tr>
+    <tr>
+      <th>Esta correto Tres bits errados</th>
+      <td>Sim</td>
+      <td>Não (6)</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Não (2)</td>
+      <td>Sim</td>
+      <td>Não (6)</td>
+      <td>Não (6)</td>
+      <td>Sim</td>
+    </tr>
+  </tbody>
+</table><h1>Neural network com 25 neurons, 10000 epochs, 0.0005 goal, 0.9 learning rate, 0.0 momentum</h1><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>0</th>
+      <th>1</th>
+      <th>2</th>
+      <th>3</th>
+      <th>4</th>
+      <th>5</th>
+      <th>6</th>
+      <th>7</th>
+      <th>8</th>
+      <th>9</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Entrada</th>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGP4Yf+BiYGBAQVzoPEZGBiYfmARw4JZOBgxxAAZOwNj2DV2NwAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGP4wfiBiYGBARkzsP9jwBD7fxBT3Q97TDEsAAAAigfm9h/wvgAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGNgYPzAxMDAgIwZ/v9jQBdjYjhMlDoGLOYBAL5PB7q+z4YtAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAF0lEQVR4nGNgP/iBiYGBgRDGCv4TpxcAFTEEjR8I5HwAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGNgwALY/39gYmBgQME/mRjQxRj+/8MUY2DE0AsANFwGAm5LhW0AAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGP4wcDAxICKGdj/f0AXY/rJhEXdP0yxH4wYegGDtAcCn+rufQAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAHklEQVR4nGNgwAL+/2NgYmBAw4c/oIsx/LDHEMOGAVWYBfyNdABzAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAGklEQVR4nGP4wfiBiYGBARkzsP9jwBCjQB0AywsH7vH8OboAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGP4wfiBiYGBARkzsP9jwBD7wYAp9h+LOiwAAJhvBgStb6iFAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAHUlEQVR4nGP4wfiBiYGBARkzsP9jQBcjFjNgMQ8ANjwFBF3yIWUAAAAASUVORK5CYII="></td>
+    </tr>
+    <tr>
+      <th>(um bit errado)</th>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGP8z/CRiYGBAQUzOjBgiP1gwBTDglk4GDHEABXuA2ZsKbVjAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIElEQVR4nGP4f/ADEwMDAzJmYP/HgCGGTd0Pe0wxLAAATL8IrWC2ThoAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGNgP/iBiYGBARkz/P/HgC7GxHCYKHUMDIwY6gAKkwiBerUQVAAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAHklEQVR4nGNgYPzAxMDAgILZDzCgi2EF/w9i6sWCAQWlBI0tE1d8AAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJElEQVR4nGNgP8DAxMCAghnY/39AF2P6yYSp7v8/TDEGRgy9AINhBtHRKrBwAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJElEQVR4nGP4f4CBiYEBBTOw//+ALsb0kwmLun+YYj8YMfQCAM/pB8mxTqqAAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGNgP8DAxMCAghn+/8MQY2I4/AFD3Q97DDFsGACknQbLO4wNUwAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAHElEQVR4nGP4f/ADEwMDAzJmYP/HgCH2g5FsdQAXTwi15GDSRAAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGP4f/ADEwMDAzJmYP/HgCH2gwFT7D8WdVgAAOSkBstrnxZ4AAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAH0lEQVR4nGP4f/ADEwMDAzJmYP/HgC5GLGb4wYhhHgCCcQXLQXFgigAAAABJRU5ErkJggg=="></td>
+    </tr>
+    <tr>
+      <th>(dois bits errados)</th>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIElEQVR4nGP4Yf+BiYGBAQVz/BfAEPvBiKkOG+bAFAMAoS0FYIMkLPgAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJUlEQVR4nGP4wfiBiYGBAQXz/2PAEPtxCEOM4Yc9pl6O/wLoYgDhRggdtZNJuAAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGNgYPzAxMDAgIL//2PAEGM4hCHGgEUdA4M9hnkAjaEHCRsi2TsAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGNgP/iBiYGBARX/F0AXwwr+Y+pl/M/wEV0MAIqNB4s0nJDVAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIElEQVR4nGNgwALY/zEwMTCgYAYGxg8YYv+xqbPHUAcA64YFQx4IAo4AAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAHklEQVR4nGP4wcDAxICKGdj/YYoxMH4gSt0Pewx1ADrtBkO1sMbtAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGNgwASM/xk+MjEwMKDiQwzoYgw/7D9gijFiiAEAPZkG5pqJlkMAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJElEQVR4nGP4wfiBiYGBAQXz/2PAEPvIhCHGwI6pjuGHPYZ5AJwkB0JsTX+xAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGP4wfiBiYGBAQXz/2NAF2P4wYAp9h+LOgY7DDEAoDMGVFgDNuQAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGP4wfiBiYGBAQXz/2NAF2NgxxTDhhl+2GOYBwB4YQZPQss0OgAAAABJRU5ErkJggg=="></td>
+    </tr>
+    <tr>
+      <th>(Tres bits errados)</th>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJElEQVR4nGP4YcfAxMCAijkYMMQY/zN8xFD30wFDHQsHI4YYACRiBKK6DLYJAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGP4wcDAxICKGdj/f0AXY/rIhKGOicEOUy8WAABB4QREEriOLQAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJUlEQVR4nGNgwASM/xk+MjEwMKDgn0wM6GIM//9hijEwfkAXAwAzzwX9lYqifwAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAFklEQVR4nGNgP8DAxMBAHv7B+IEYdQCelwLh+Hv9ogAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGNgYPzAxMDAgIwZ2P8xoIsxMRzGVPcfUx0DFvMAcccGwsro9jEAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGP4wfiBiYGBARkzsP9jQBdjYjhMlDoGLOYBAL5PB7r3BLi2AAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGNgYPzAxMDAgIL//2PAEPvJhCnGYIdFDBMDAERFBFhc1TDvAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGP4wcDAxICKGdj/f0AXY/pxCIu6f5hiPxgx9AIArvkHwREBEWkAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIElEQVR4nGP4wcDAxICKGdj/f8AQ+38AU93/f5hiWAAAsrgGy0S0hjEAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGP4wcDAxICKGdj/f8AQY7DDou4fptgPRgy9AFdxBkPMbdckAAAAAElFTkSuQmCC"></td>
+    </tr>
+    <tr>
+      <th>Esta correto</th>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+    </tr>
+    <tr>
+      <th>Esta correto um bit errado</th>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+    </tr>
+    <tr>
+      <th>Esta correto dois bits errados</th>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Não (8)</td>
+      <td>Não (6)</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+    </tr>
+    <tr>
+      <th>Esta correto Tres bits errados</th>
+      <td>Sim</td>
+      <td>Não (6)</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Não (0)</td>
+      <td>Sim</td>
+      <td>Não (6)</td>
+      <td>Não (6)</td>
+      <td>Não (6)</td>
+    </tr>
+  </tbody>
+</table><h1>Neural network com 25 neurons, 10000 epochs, 0.0005 goal, 0.1 learning rate, 0.4 momentum</h1><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>0</th>
+      <th>1</th>
+      <th>2</th>
+      <th>3</th>
+      <th>4</th>
+      <th>5</th>
+      <th>6</th>
+      <th>7</th>
+      <th>8</th>
+      <th>9</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Entrada</th>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGP4Yf+BiYGBAQVzoPEZGBiYfmARw4JZOBgxxAAZOwNj2DV2NwAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGP4wfiBiYGBARkzsP9jwBD7fxBT3Q97TDEsAAAAigfm9h/wvgAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGNgYPzAxMDAgIwZ/v9jQBdjYjhMlDoGLOYBAL5PB7q+z4YtAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAF0lEQVR4nGNgP/iBiYGBgRDGCv4TpxcAFTEEjR8I5HwAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGNgwALY/39gYmBgQME/mRjQxRj+/8MUY2DE0AsANFwGAm5LhW0AAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGP4wcDAxICKGdj/f0AXY/rJhEXdP0yxH4wYegGDtAcCn+rufQAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAHklEQVR4nGNgwAL+/2NgYmBAw4c/oIsx/LDHEMOGAVWYBfyNdABzAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAGklEQVR4nGP4wfiBiYGBARkzsP9jwBCjQB0AywsH7vH8OboAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGP4wfiBiYGBARkzsP9jwBD7wYAp9h+LOiwAAJhvBgStb6iFAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAHUlEQVR4nGP4wfiBiYGBARkzsP9jQBcjFjNgMQ8ANjwFBF3yIWUAAAAASUVORK5CYII="></td>
+    </tr>
+    <tr>
+      <th>(um bit errado)</th>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGP8z/CRiYGBAQUzOjBgiP1gwBTDglk4GDHEABXuA2ZsKbVjAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIElEQVR4nGP4f/ADEwMDAzJmYP/HgCGGTd0Pe0wxLAAATL8IrWC2ThoAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGNgP/iBiYGBARkz/P/HgC7GxHCYKHUMDIwY6gAKkwiBerUQVAAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAHklEQVR4nGNgYPzAxMDAgILZDzCgi2EF/w9i6sWCAQWlBI0tE1d8AAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJElEQVR4nGNgP8DAxMCAghnY/39AF2P6yYSp7v8/TDEGRgy9AINhBtHRKrBwAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJElEQVR4nGP4f4CBiYEBBTOw//+ALsb0kwmLun+YYj8YMfQCAM/pB8mxTqqAAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGNgP8DAxMCAghn+/8MQY2I4/AFD3Q97DDFsGACknQbLO4wNUwAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAHElEQVR4nGP4f/ADEwMDAzJmYP/HgCH2g5FsdQAXTwi15GDSRAAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGP4f/ADEwMDAzJmYP/HgCH2gwFT7D8WdVgAAOSkBstrnxZ4AAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAH0lEQVR4nGP4f/ADEwMDAzJmYP/HgC5GLGb4wYhhHgCCcQXLQXFgigAAAABJRU5ErkJggg=="></td>
+    </tr>
+    <tr>
+      <th>(dois bits errados)</th>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIElEQVR4nGP4Yf+BiYGBAQVz/BfAEPvBiKkOG+bAFAMAoS0FYIMkLPgAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJUlEQVR4nGP4wfiBiYGBAQXz/2PAEPtxCEOM4Yc9pl6O/wLoYgDhRggdtZNJuAAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGNgYPzAxMDAgIL//2PAEGM4hCHGgEUdA4M9hnkAjaEHCRsi2TsAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGNgP/iBiYGBARX/F0AXwwr+Y+pl/M/wEV0MAIqNB4s0nJDVAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIElEQVR4nGNgwALY/zEwMTCgYAYGxg8YYv+xqbPHUAcA64YFQx4IAo4AAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAHklEQVR4nGP4wcDAxICKGdj/YYoxMH4gSt0Pewx1ADrtBkO1sMbtAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGNgwASM/xk+MjEwMKDiQwzoYgw/7D9gijFiiAEAPZkG5pqJlkMAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJElEQVR4nGP4wfiBiYGBAQXz/2PAEPvIhCHGwI6pjuGHPYZ5AJwkB0JsTX+xAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGP4wfiBiYGBAQXz/2NAF2P4wYAp9h+LOgY7DDEAoDMGVFgDNuQAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGP4wfiBiYGBAQXz/2NAF2NgxxTDhhl+2GOYBwB4YQZPQss0OgAAAABJRU5ErkJggg=="></td>
+    </tr>
+    <tr>
+      <th>(Tres bits errados)</th>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJElEQVR4nGP4YcfAxMCAijkYMMQY/zN8xFD30wFDHQsHI4YYACRiBKK6DLYJAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGP4wcDAxICKGdj/f0AXY/rIhKGOicEOUy8WAABB4QREEriOLQAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJUlEQVR4nGNgwASM/xk+MjEwMKDgn0wM6GIM//9hijEwfkAXAwAzzwX9lYqifwAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAFklEQVR4nGNgP8DAxMBAHv7B+IEYdQCelwLh+Hv9ogAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGNgYPzAxMDAgIwZ2P8xoIsxMRzGVPcfUx0DFvMAcccGwsro9jEAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGP4wfiBiYGBARkzsP9jQBdjYjhMlDoGLOYBAL5PB7r3BLi2AAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGNgYPzAxMDAgIL//2PAEPvJhCnGYIdFDBMDAERFBFhc1TDvAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGP4wcDAxICKGdj/f0AXY/pxCIu6f5hiPxgx9AIArvkHwREBEWkAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIElEQVR4nGP4wcDAxICKGdj/f8AQ+38AU93/f5hiWAAAsrgGy0S0hjEAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGP4wcDAxICKGdj/f8AQY7DDou4fptgPRgy9AFdxBkPMbdckAAAAAElFTkSuQmCC"></td>
+    </tr>
+    <tr>
+      <th>Esta correto</th>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+    </tr>
+    <tr>
+      <th>Esta correto um bit errado</th>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+    </tr>
+    <tr>
+      <th>Esta correto dois bits errados</th>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Não (7)</td>
+      <td>Não (6)</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+    </tr>
+    <tr>
+      <th>Esta correto Tres bits errados</th>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Não (0)</td>
+      <td>Não (8)</td>
+      <td>Não (6)</td>
+      <td>Não (6)</td>
+      <td>Não (6)</td>
+    </tr>
+  </tbody>
+</table><h1>Neural network com 25 neurons, 10000 epochs, 0.0005 goal, 0.9 learning rate, 0.4 momentum</h1><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>0</th>
+      <th>1</th>
+      <th>2</th>
+      <th>3</th>
+      <th>4</th>
+      <th>5</th>
+      <th>6</th>
+      <th>7</th>
+      <th>8</th>
+      <th>9</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Entrada</th>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGP4Yf+BiYGBAQVzoPEZGBiYfmARw4JZOBgxxAAZOwNj2DV2NwAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGP4wfiBiYGBARkzsP9jwBD7fxBT3Q97TDEsAAAAigfm9h/wvgAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGNgYPzAxMDAgIwZ/v9jQBdjYjhMlDoGLOYBAL5PB7q+z4YtAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAF0lEQVR4nGNgP/iBiYGBgRDGCv4TpxcAFTEEjR8I5HwAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGNgwALY/39gYmBgQME/mRjQxRj+/8MUY2DE0AsANFwGAm5LhW0AAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGP4wcDAxICKGdj/f0AXY/rJhEXdP0yxH4wYegGDtAcCn+rufQAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAHklEQVR4nGNgwAL+/2NgYmBAw4c/oIsx/LDHEMOGAVWYBfyNdABzAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAGklEQVR4nGP4wfiBiYGBARkzsP9jwBCjQB0AywsH7vH8OboAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGP4wfiBiYGBARkzsP9jwBD7wYAp9h+LOiwAAJhvBgStb6iFAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAHUlEQVR4nGP4wfiBiYGBARkzsP9jQBcjFjNgMQ8ANjwFBF3yIWUAAAAASUVORK5CYII="></td>
+    </tr>
+    <tr>
+      <th>(um bit errado)</th>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGP8z/CRiYGBAQUzOjBgiP1gwBTDglk4GDHEABXuA2ZsKbVjAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIElEQVR4nGP4f/ADEwMDAzJmYP/HgCGGTd0Pe0wxLAAATL8IrWC2ThoAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGNgP/iBiYGBARkz/P/HgC7GxHCYKHUMDIwY6gAKkwiBerUQVAAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAHklEQVR4nGNgYPzAxMDAgILZDzCgi2EF/w9i6sWCAQWlBI0tE1d8AAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJElEQVR4nGNgP8DAxMCAghnY/39AF2P6yYSp7v8/TDEGRgy9AINhBtHRKrBwAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJElEQVR4nGP4f4CBiYEBBTOw//+ALsb0kwmLun+YYj8YMfQCAM/pB8mxTqqAAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGNgP8DAxMCAghn+/8MQY2I4/AFD3Q97DDFsGACknQbLO4wNUwAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAHElEQVR4nGP4f/ADEwMDAzJmYP/HgCH2g5FsdQAXTwi15GDSRAAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGP4f/ADEwMDAzJmYP/HgCH2gwFT7D8WdVgAAOSkBstrnxZ4AAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAH0lEQVR4nGP4f/ADEwMDAzJmYP/HgC5GLGb4wYhhHgCCcQXLQXFgigAAAABJRU5ErkJggg=="></td>
+    </tr>
+    <tr>
+      <th>(dois bits errados)</th>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIElEQVR4nGP4Yf+BiYGBAQVz/BfAEPvBiKkOG+bAFAMAoS0FYIMkLPgAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJUlEQVR4nGP4wfiBiYGBAQXz/2PAEPtxCEOM4Yc9pl6O/wLoYgDhRggdtZNJuAAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGNgYPzAxMDAgIL//2PAEGM4hCHGgEUdA4M9hnkAjaEHCRsi2TsAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGNgP/iBiYGBARX/F0AXwwr+Y+pl/M/wEV0MAIqNB4s0nJDVAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIElEQVR4nGNgwALY/zEwMTCgYAYGxg8YYv+xqbPHUAcA64YFQx4IAo4AAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAHklEQVR4nGP4wcDAxICKGdj/YYoxMH4gSt0Pewx1ADrtBkO1sMbtAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGNgwASM/xk+MjEwMKDiQwzoYgw/7D9gijFiiAEAPZkG5pqJlkMAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJElEQVR4nGP4wfiBiYGBAQXz/2PAEPvIhCHGwI6pjuGHPYZ5AJwkB0JsTX+xAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGP4wfiBiYGBAQXz/2NAF2P4wYAp9h+LOgY7DDEAoDMGVFgDNuQAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGP4wfiBiYGBAQXz/2NAF2NgxxTDhhl+2GOYBwB4YQZPQss0OgAAAABJRU5ErkJggg=="></td>
+    </tr>
+    <tr>
+      <th>(Tres bits errados)</th>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJElEQVR4nGP4YcfAxMCAijkYMMQY/zN8xFD30wFDHQsHI4YYACRiBKK6DLYJAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGP4wcDAxICKGdj/f0AXY/rIhKGOicEOUy8WAABB4QREEriOLQAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJUlEQVR4nGNgwASM/xk+MjEwMKDgn0wM6GIM//9hijEwfkAXAwAzzwX9lYqifwAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAFklEQVR4nGNgP8DAxMBAHv7B+IEYdQCelwLh+Hv9ogAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGNgYPzAxMDAgIwZ2P8xoIsxMRzGVPcfUx0DFvMAcccGwsro9jEAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGP4wfiBiYGBARkzsP9jQBdjYjhMlDoGLOYBAL5PB7r3BLi2AAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGNgYPzAxMDAgIL//2PAEPvJhCnGYIdFDBMDAERFBFhc1TDvAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGP4wcDAxICKGdj/f0AXY/pxCIu6f5hiPxgx9AIArvkHwREBEWkAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIElEQVR4nGP4wcDAxICKGdj/f8AQ+38AU93/f5hiWAAAsrgGy0S0hjEAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGP4wcDAxICKGdj/f8AQY7DDou4fptgPRgy9AFdxBkPMbdckAAAAAElFTkSuQmCC"></td>
+    </tr>
+    <tr>
+      <th>Esta correto</th>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+    </tr>
+    <tr>
+      <th>Esta correto um bit errado</th>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+    </tr>
+    <tr>
+      <th>Esta correto dois bits errados</th>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Não (8)</td>
+      <td>Não (6)</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+    </tr>
+    <tr>
+      <th>Esta correto Tres bits errados</th>
+      <td>Sim</td>
+      <td>Não (6)</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Não (2)</td>
+      <td>Sim</td>
+      <td>Não (6)</td>
+      <td>Sim</td>
+      <td>Não (6)</td>
+    </tr>
+  </tbody>
+</table><h1>Neural network com 35 neurons, 10000 epochs, 0.0005 goal, 0.1 learning rate, 0.0 momentum</h1><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>0</th>
+      <th>1</th>
+      <th>2</th>
+      <th>3</th>
+      <th>4</th>
+      <th>5</th>
+      <th>6</th>
+      <th>7</th>
+      <th>8</th>
+      <th>9</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Entrada</th>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGP4Yf+BiYGBAQVzoPEZGBiYfmARw4JZOBgxxAAZOwNj2DV2NwAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGP4wfiBiYGBARkzsP9jwBD7fxBT3Q97TDEsAAAAigfm9h/wvgAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGNgYPzAxMDAgIwZ/v9jQBdjYjhMlDoGLOYBAL5PB7q+z4YtAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAF0lEQVR4nGNgP/iBiYGBgRDGCv4TpxcAFTEEjR8I5HwAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGNgwALY/39gYmBgQME/mRjQxRj+/8MUY2DE0AsANFwGAm5LhW0AAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGP4wcDAxICKGdj/f0AXY/rJhEXdP0yxH4wYegGDtAcCn+rufQAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAHklEQVR4nGNgwAL+/2NgYmBAw4c/oIsx/LDHEMOGAVWYBfyNdABzAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAGklEQVR4nGP4wfiBiYGBARkzsP9jwBCjQB0AywsH7vH8OboAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGP4wfiBiYGBARkzsP9jwBD7wYAp9h+LOiwAAJhvBgStb6iFAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAHUlEQVR4nGP4wfiBiYGBARkzsP9jQBcjFjNgMQ8ANjwFBF3yIWUAAAAASUVORK5CYII="></td>
+    </tr>
+    <tr>
+      <th>(um bit errado)</th>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGP8z/CRiYGBAQUzOjBgiP1gwBTDglk4GDHEABXuA2ZsKbVjAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIElEQVR4nGP4f/ADEwMDAzJmYP/HgCGGTd0Pe0wxLAAATL8IrWC2ThoAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGNgP/iBiYGBARkz/P/HgC7GxHCYKHUMDIwY6gAKkwiBerUQVAAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAHklEQVR4nGNgYPzAxMDAgILZDzCgi2EF/w9i6sWCAQWlBI0tE1d8AAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJElEQVR4nGNgP8DAxMCAghnY/39AF2P6yYSp7v8/TDEGRgy9AINhBtHRKrBwAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJElEQVR4nGP4f4CBiYEBBTOw//+ALsb0kwmLun+YYj8YMfQCAM/pB8mxTqqAAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGNgP8DAxMCAghn+/8MQY2I4/AFD3Q97DDFsGACknQbLO4wNUwAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAHElEQVR4nGP4f/ADEwMDAzJmYP/HgCH2g5FsdQAXTwi15GDSRAAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGP4f/ADEwMDAzJmYP/HgCH2gwFT7D8WdVgAAOSkBstrnxZ4AAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAH0lEQVR4nGP4f/ADEwMDAzJmYP/HgC5GLGb4wYhhHgCCcQXLQXFgigAAAABJRU5ErkJggg=="></td>
+    </tr>
+    <tr>
+      <th>(dois bits errados)</th>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIElEQVR4nGP4Yf+BiYGBAQVz/BfAEPvBiKkOG+bAFAMAoS0FYIMkLPgAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJUlEQVR4nGP4wfiBiYGBAQXz/2PAEPtxCEOM4Yc9pl6O/wLoYgDhRggdtZNJuAAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGNgYPzAxMDAgIL//2PAEGM4hCHGgEUdA4M9hnkAjaEHCRsi2TsAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGNgP/iBiYGBARX/F0AXwwr+Y+pl/M/wEV0MAIqNB4s0nJDVAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIElEQVR4nGNgwALY/zEwMTCgYAYGxg8YYv+xqbPHUAcA64YFQx4IAo4AAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAHklEQVR4nGP4wcDAxICKGdj/YYoxMH4gSt0Pewx1ADrtBkO1sMbtAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGNgwASM/xk+MjEwMKDiQwzoYgw/7D9gijFiiAEAPZkG5pqJlkMAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJElEQVR4nGP4wfiBiYGBAQXz/2PAEPvIhCHGwI6pjuGHPYZ5AJwkB0JsTX+xAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGP4wfiBiYGBAQXz/2NAF2P4wYAp9h+LOgY7DDEAoDMGVFgDNuQAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGP4wfiBiYGBAQXz/2NAF2NgxxTDhhl+2GOYBwB4YQZPQss0OgAAAABJRU5ErkJggg=="></td>
+    </tr>
+    <tr>
+      <th>(Tres bits errados)</th>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJElEQVR4nGP4YcfAxMCAijkYMMQY/zN8xFD30wFDHQsHI4YYACRiBKK6DLYJAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGP4wcDAxICKGdj/f0AXY/rIhKGOicEOUy8WAABB4QREEriOLQAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJUlEQVR4nGNgwASM/xk+MjEwMKDgn0wM6GIM//9hijEwfkAXAwAzzwX9lYqifwAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAFklEQVR4nGNgP8DAxMBAHv7B+IEYdQCelwLh+Hv9ogAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGNgYPzAxMDAgIwZ2P8xoIsxMRzGVPcfUx0DFvMAcccGwsro9jEAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGP4wfiBiYGBARkzsP9jQBdjYjhMlDoGLOYBAL5PB7r3BLi2AAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGNgYPzAxMDAgIL//2PAEPvJhCnGYIdFDBMDAERFBFhc1TDvAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGP4wcDAxICKGdj/f0AXY/pxCIu6f5hiPxgx9AIArvkHwREBEWkAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIElEQVR4nGP4wcDAxICKGdj/f8AQ+38AU93/f5hiWAAAsrgGy0S0hjEAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGP4wcDAxICKGdj/f8AQY7DDou4fptgPRgy9AFdxBkPMbdckAAAAAElFTkSuQmCC"></td>
+    </tr>
+    <tr>
+      <th>Esta correto</th>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+    </tr>
+    <tr>
+      <th>Esta correto um bit errado</th>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+    </tr>
+    <tr>
+      <th>Esta correto dois bits errados</th>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Não (8)</td>
+      <td>Não (6)</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+    </tr>
+    <tr>
+      <th>Esta correto Tres bits errados</th>
+      <td>Sim</td>
+      <td>Não (6)</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Não (0)</td>
+      <td>Sim</td>
+      <td>Não (6)</td>
+      <td>Não (6)</td>
+      <td>Não (6)</td>
+    </tr>
+  </tbody>
+</table><h1>Neural network com 35 neurons, 10000 epochs, 0.0005 goal, 0.4 learning rate, 0.0 momentum</h1><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>0</th>
+      <th>1</th>
+      <th>2</th>
+      <th>3</th>
+      <th>4</th>
+      <th>5</th>
+      <th>6</th>
+      <th>7</th>
+      <th>8</th>
+      <th>9</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Entrada</th>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGP4Yf+BiYGBAQVzoPEZGBiYfmARw4JZOBgxxAAZOwNj2DV2NwAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGP4wfiBiYGBARkzsP9jwBD7fxBT3Q97TDEsAAAAigfm9h/wvgAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGNgYPzAxMDAgIwZ/v9jQBdjYjhMlDoGLOYBAL5PB7q+z4YtAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAF0lEQVR4nGNgP/iBiYGBgRDGCv4TpxcAFTEEjR8I5HwAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGNgwALY/39gYmBgQME/mRjQxRj+/8MUY2DE0AsANFwGAm5LhW0AAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGP4wcDAxICKGdj/f0AXY/rJhEXdP0yxH4wYegGDtAcCn+rufQAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAHklEQVR4nGNgwAL+/2NgYmBAw4c/oIsx/LDHEMOGAVWYBfyNdABzAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAGklEQVR4nGP4wfiBiYGBARkzsP9jwBCjQB0AywsH7vH8OboAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGP4wfiBiYGBARkzsP9jwBD7wYAp9h+LOiwAAJhvBgStb6iFAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAHUlEQVR4nGP4wfiBiYGBARkzsP9jQBcjFjNgMQ8ANjwFBF3yIWUAAAAASUVORK5CYII="></td>
+    </tr>
+    <tr>
+      <th>(um bit errado)</th>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGP8z/CRiYGBAQUzOjBgiP1gwBTDglk4GDHEABXuA2ZsKbVjAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIElEQVR4nGP4f/ADEwMDAzJmYP/HgCGGTd0Pe0wxLAAATL8IrWC2ThoAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGNgP/iBiYGBARkz/P/HgC7GxHCYKHUMDIwY6gAKkwiBerUQVAAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAHklEQVR4nGNgYPzAxMDAgILZDzCgi2EF/w9i6sWCAQWlBI0tE1d8AAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJElEQVR4nGNgP8DAxMCAghnY/39AF2P6yYSp7v8/TDEGRgy9AINhBtHRKrBwAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJElEQVR4nGP4f4CBiYEBBTOw//+ALsb0kwmLun+YYj8YMfQCAM/pB8mxTqqAAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGNgP8DAxMCAghn+/8MQY2I4/AFD3Q97DDFsGACknQbLO4wNUwAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAHElEQVR4nGP4f/ADEwMDAzJmYP/HgCH2g5FsdQAXTwi15GDSRAAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGP4f/ADEwMDAzJmYP/HgCH2gwFT7D8WdVgAAOSkBstrnxZ4AAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAH0lEQVR4nGP4f/ADEwMDAzJmYP/HgC5GLGb4wYhhHgCCcQXLQXFgigAAAABJRU5ErkJggg=="></td>
+    </tr>
+    <tr>
+      <th>(dois bits errados)</th>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIElEQVR4nGP4Yf+BiYGBAQVz/BfAEPvBiKkOG+bAFAMAoS0FYIMkLPgAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJUlEQVR4nGP4wfiBiYGBAQXz/2PAEPtxCEOM4Yc9pl6O/wLoYgDhRggdtZNJuAAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGNgYPzAxMDAgIL//2PAEGM4hCHGgEUdA4M9hnkAjaEHCRsi2TsAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGNgP/iBiYGBARX/F0AXwwr+Y+pl/M/wEV0MAIqNB4s0nJDVAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIElEQVR4nGNgwALY/zEwMTCgYAYGxg8YYv+xqbPHUAcA64YFQx4IAo4AAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAHklEQVR4nGP4wcDAxICKGdj/YYoxMH4gSt0Pewx1ADrtBkO1sMbtAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGNgwASM/xk+MjEwMKDiQwzoYgw/7D9gijFiiAEAPZkG5pqJlkMAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJElEQVR4nGP4wfiBiYGBAQXz/2PAEPvIhCHGwI6pjuGHPYZ5AJwkB0JsTX+xAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGP4wfiBiYGBAQXz/2NAF2P4wYAp9h+LOgY7DDEAoDMGVFgDNuQAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGP4wfiBiYGBAQXz/2NAF2NgxxTDhhl+2GOYBwB4YQZPQss0OgAAAABJRU5ErkJggg=="></td>
+    </tr>
+    <tr>
+      <th>(Tres bits errados)</th>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJElEQVR4nGP4YcfAxMCAijkYMMQY/zN8xFD30wFDHQsHI4YYACRiBKK6DLYJAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGP4wcDAxICKGdj/f0AXY/rIhKGOicEOUy8WAABB4QREEriOLQAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJUlEQVR4nGNgwASM/xk+MjEwMKDgn0wM6GIM//9hijEwfkAXAwAzzwX9lYqifwAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAFklEQVR4nGNgP8DAxMBAHv7B+IEYdQCelwLh+Hv9ogAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGNgYPzAxMDAgIwZ2P8xoIsxMRzGVPcfUx0DFvMAcccGwsro9jEAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGP4wfiBiYGBARkzsP9jQBdjYjhMlDoGLOYBAL5PB7r3BLi2AAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGNgYPzAxMDAgIL//2PAEPvJhCnGYIdFDBMDAERFBFhc1TDvAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGP4wcDAxICKGdj/f0AXY/pxCIu6f5hiPxgx9AIArvkHwREBEWkAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIElEQVR4nGP4wcDAxICKGdj/f8AQ+38AU93/f5hiWAAAsrgGy0S0hjEAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGP4wcDAxICKGdj/f8AQY7DDou4fptgPRgy9AFdxBkPMbdckAAAAAElFTkSuQmCC"></td>
+    </tr>
+    <tr>
+      <th>Esta correto</th>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+    </tr>
+    <tr>
+      <th>Esta correto um bit errado</th>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+    </tr>
+    <tr>
+      <th>Esta correto dois bits errados</th>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Não (8)</td>
+      <td>Não (6)</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+    </tr>
+    <tr>
+      <th>Esta correto Tres bits errados</th>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Não (0)</td>
+      <td>Sim</td>
+      <td>Não (6)</td>
+      <td>Sim</td>
+      <td>Não (6)</td>
+    </tr>
+  </tbody>
+</table><h1>Neural network com 35 neurons, 10000 epochs, 0.0005 goal, 0.9 learning rate, 0.0 momentum</h1><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>0</th>
+      <th>1</th>
+      <th>2</th>
+      <th>3</th>
+      <th>4</th>
+      <th>5</th>
+      <th>6</th>
+      <th>7</th>
+      <th>8</th>
+      <th>9</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Entrada</th>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGP4Yf+BiYGBAQVzoPEZGBiYfmARw4JZOBgxxAAZOwNj2DV2NwAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGP4wfiBiYGBARkzsP9jwBD7fxBT3Q97TDEsAAAAigfm9h/wvgAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGNgYPzAxMDAgIwZ/v9jQBdjYjhMlDoGLOYBAL5PB7q+z4YtAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAF0lEQVR4nGNgP/iBiYGBgRDGCv4TpxcAFTEEjR8I5HwAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGNgwALY/39gYmBgQME/mRjQxRj+/8MUY2DE0AsANFwGAm5LhW0AAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGP4wcDAxICKGdj/f0AXY/rJhEXdP0yxH4wYegGDtAcCn+rufQAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAHklEQVR4nGNgwAL+/2NgYmBAw4c/oIsx/LDHEMOGAVWYBfyNdABzAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAGklEQVR4nGP4wfiBiYGBARkzsP9jwBCjQB0AywsH7vH8OboAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGP4wfiBiYGBARkzsP9jwBD7wYAp9h+LOiwAAJhvBgStb6iFAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAHUlEQVR4nGP4wfiBiYGBARkzsP9jQBcjFjNgMQ8ANjwFBF3yIWUAAAAASUVORK5CYII="></td>
+    </tr>
+    <tr>
+      <th>(um bit errado)</th>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGP8z/CRiYGBAQUzOjBgiP1gwBTDglk4GDHEABXuA2ZsKbVjAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIElEQVR4nGP4f/ADEwMDAzJmYP/HgCGGTd0Pe0wxLAAATL8IrWC2ThoAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGNgP/iBiYGBARkz/P/HgC7GxHCYKHUMDIwY6gAKkwiBerUQVAAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAHklEQVR4nGNgYPzAxMDAgILZDzCgi2EF/w9i6sWCAQWlBI0tE1d8AAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJElEQVR4nGNgP8DAxMCAghnY/39AF2P6yYSp7v8/TDEGRgy9AINhBtHRKrBwAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJElEQVR4nGP4f4CBiYEBBTOw//+ALsb0kwmLun+YYj8YMfQCAM/pB8mxTqqAAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGNgP8DAxMCAghn+/8MQY2I4/AFD3Q97DDFsGACknQbLO4wNUwAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAHElEQVR4nGP4f/ADEwMDAzJmYP/HgCH2g5FsdQAXTwi15GDSRAAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGP4f/ADEwMDAzJmYP/HgCH2gwFT7D8WdVgAAOSkBstrnxZ4AAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAH0lEQVR4nGP4f/ADEwMDAzJmYP/HgC5GLGb4wYhhHgCCcQXLQXFgigAAAABJRU5ErkJggg=="></td>
+    </tr>
+    <tr>
+      <th>(dois bits errados)</th>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIElEQVR4nGP4Yf+BiYGBAQVz/BfAEPvBiKkOG+bAFAMAoS0FYIMkLPgAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJUlEQVR4nGP4wfiBiYGBAQXz/2PAEPtxCEOM4Yc9pl6O/wLoYgDhRggdtZNJuAAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGNgYPzAxMDAgIL//2PAEGM4hCHGgEUdA4M9hnkAjaEHCRsi2TsAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGNgP/iBiYGBARX/F0AXwwr+Y+pl/M/wEV0MAIqNB4s0nJDVAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIElEQVR4nGNgwALY/zEwMTCgYAYGxg8YYv+xqbPHUAcA64YFQx4IAo4AAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAHklEQVR4nGP4wcDAxICKGdj/YYoxMH4gSt0Pewx1ADrtBkO1sMbtAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGNgwASM/xk+MjEwMKDiQwzoYgw/7D9gijFiiAEAPZkG5pqJlkMAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJElEQVR4nGP4wfiBiYGBAQXz/2PAEPvIhCHGwI6pjuGHPYZ5AJwkB0JsTX+xAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGP4wfiBiYGBAQXz/2NAF2P4wYAp9h+LOgY7DDEAoDMGVFgDNuQAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGP4wfiBiYGBAQXz/2NAF2NgxxTDhhl+2GOYBwB4YQZPQss0OgAAAABJRU5ErkJggg=="></td>
+    </tr>
+    <tr>
+      <th>(Tres bits errados)</th>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJElEQVR4nGP4YcfAxMCAijkYMMQY/zN8xFD30wFDHQsHI4YYACRiBKK6DLYJAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGP4wcDAxICKGdj/f0AXY/rIhKGOicEOUy8WAABB4QREEriOLQAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJUlEQVR4nGNgwASM/xk+MjEwMKDgn0wM6GIM//9hijEwfkAXAwAzzwX9lYqifwAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAFklEQVR4nGNgP8DAxMBAHv7B+IEYdQCelwLh+Hv9ogAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGNgYPzAxMDAgIwZ2P8xoIsxMRzGVPcfUx0DFvMAcccGwsro9jEAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGP4wfiBiYGBARkzsP9jQBdjYjhMlDoGLOYBAL5PB7r3BLi2AAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGNgYPzAxMDAgIL//2PAEPvJhCnGYIdFDBMDAERFBFhc1TDvAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGP4wcDAxICKGdj/f0AXY/pxCIu6f5hiPxgx9AIArvkHwREBEWkAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIElEQVR4nGP4wcDAxICKGdj/f8AQ+38AU93/f5hiWAAAsrgGy0S0hjEAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGP4wcDAxICKGdj/f8AQY7DDou4fptgPRgy9AFdxBkPMbdckAAAAAElFTkSuQmCC"></td>
+    </tr>
+    <tr>
+      <th>Esta correto</th>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+    </tr>
+    <tr>
+      <th>Esta correto um bit errado</th>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+    </tr>
+    <tr>
+      <th>Esta correto dois bits errados</th>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Não (8)</td>
+      <td>Não (6)</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+    </tr>
+    <tr>
+      <th>Esta correto Tres bits errados</th>
+      <td>Sim</td>
+      <td>Não (6)</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Não (0)</td>
+      <td>Sim</td>
+      <td>Não (6)</td>
+      <td>Sim</td>
+      <td>Não (6)</td>
+    </tr>
+  </tbody>
+</table><h1>Neural network com 35 neurons, 10000 epochs, 0.0005 goal, 0.1 learning rate, 0.4 momentum</h1><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>0</th>
+      <th>1</th>
+      <th>2</th>
+      <th>3</th>
+      <th>4</th>
+      <th>5</th>
+      <th>6</th>
+      <th>7</th>
+      <th>8</th>
+      <th>9</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Entrada</th>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGP4Yf+BiYGBAQVzoPEZGBiYfmARw4JZOBgxxAAZOwNj2DV2NwAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGP4wfiBiYGBARkzsP9jwBD7fxBT3Q97TDEsAAAAigfm9h/wvgAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGNgYPzAxMDAgIwZ/v9jQBdjYjhMlDoGLOYBAL5PB7q+z4YtAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAF0lEQVR4nGNgP/iBiYGBgRDGCv4TpxcAFTEEjR8I5HwAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGNgwALY/39gYmBgQME/mRjQxRj+/8MUY2DE0AsANFwGAm5LhW0AAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGP4wcDAxICKGdj/f0AXY/rJhEXdP0yxH4wYegGDtAcCn+rufQAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAHklEQVR4nGNgwAL+/2NgYmBAw4c/oIsx/LDHEMOGAVWYBfyNdABzAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAGklEQVR4nGP4wfiBiYGBARkzsP9jwBCjQB0AywsH7vH8OboAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGP4wfiBiYGBARkzsP9jwBD7wYAp9h+LOiwAAJhvBgStb6iFAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAHUlEQVR4nGP4wfiBiYGBARkzsP9jQBcjFjNgMQ8ANjwFBF3yIWUAAAAASUVORK5CYII="></td>
+    </tr>
+    <tr>
+      <th>(um bit errado)</th>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGP8z/CRiYGBAQUzOjBgiP1gwBTDglk4GDHEABXuA2ZsKbVjAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIElEQVR4nGP4f/ADEwMDAzJmYP/HgCGGTd0Pe0wxLAAATL8IrWC2ThoAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGNgP/iBiYGBARkz/P/HgC7GxHCYKHUMDIwY6gAKkwiBerUQVAAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAHklEQVR4nGNgYPzAxMDAgILZDzCgi2EF/w9i6sWCAQWlBI0tE1d8AAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJElEQVR4nGNgP8DAxMCAghnY/39AF2P6yYSp7v8/TDEGRgy9AINhBtHRKrBwAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJElEQVR4nGP4f4CBiYEBBTOw//+ALsb0kwmLun+YYj8YMfQCAM/pB8mxTqqAAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGNgP8DAxMCAghn+/8MQY2I4/AFD3Q97DDFsGACknQbLO4wNUwAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAHElEQVR4nGP4f/ADEwMDAzJmYP/HgCH2g5FsdQAXTwi15GDSRAAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGP4f/ADEwMDAzJmYP/HgCH2gwFT7D8WdVgAAOSkBstrnxZ4AAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAH0lEQVR4nGP4f/ADEwMDAzJmYP/HgC5GLGb4wYhhHgCCcQXLQXFgigAAAABJRU5ErkJggg=="></td>
+    </tr>
+    <tr>
+      <th>(dois bits errados)</th>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIElEQVR4nGP4Yf+BiYGBAQVz/BfAEPvBiKkOG+bAFAMAoS0FYIMkLPgAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJUlEQVR4nGP4wfiBiYGBAQXz/2PAEPtxCEOM4Yc9pl6O/wLoYgDhRggdtZNJuAAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGNgYPzAxMDAgIL//2PAEGM4hCHGgEUdA4M9hnkAjaEHCRsi2TsAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGNgP/iBiYGBARX/F0AXwwr+Y+pl/M/wEV0MAIqNB4s0nJDVAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIElEQVR4nGNgwALY/zEwMTCgYAYGxg8YYv+xqbPHUAcA64YFQx4IAo4AAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAHklEQVR4nGP4wcDAxICKGdj/YYoxMH4gSt0Pewx1ADrtBkO1sMbtAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGNgwASM/xk+MjEwMKDiQwzoYgw/7D9gijFiiAEAPZkG5pqJlkMAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJElEQVR4nGP4wfiBiYGBAQXz/2PAEPvIhCHGwI6pjuGHPYZ5AJwkB0JsTX+xAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGP4wfiBiYGBAQXz/2NAF2P4wYAp9h+LOgY7DDEAoDMGVFgDNuQAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGP4wfiBiYGBAQXz/2NAF2NgxxTDhhl+2GOYBwB4YQZPQss0OgAAAABJRU5ErkJggg=="></td>
+    </tr>
+    <tr>
+      <th>(Tres bits errados)</th>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJElEQVR4nGP4YcfAxMCAijkYMMQY/zN8xFD30wFDHQsHI4YYACRiBKK6DLYJAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGP4wcDAxICKGdj/f0AXY/rIhKGOicEOUy8WAABB4QREEriOLQAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJUlEQVR4nGNgwASM/xk+MjEwMKDgn0wM6GIM//9hijEwfkAXAwAzzwX9lYqifwAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAFklEQVR4nGNgP8DAxMBAHv7B+IEYdQCelwLh+Hv9ogAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGNgYPzAxMDAgIwZ2P8xoIsxMRzGVPcfUx0DFvMAcccGwsro9jEAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGP4wfiBiYGBARkzsP9jQBdjYjhMlDoGLOYBAL5PB7r3BLi2AAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGNgYPzAxMDAgIL//2PAEPvJhCnGYIdFDBMDAERFBFhc1TDvAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGP4wcDAxICKGdj/f0AXY/pxCIu6f5hiPxgx9AIArvkHwREBEWkAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIElEQVR4nGP4wcDAxICKGdj/f8AQ+38AU93/f5hiWAAAsrgGy0S0hjEAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGP4wcDAxICKGdj/f8AQY7DDou4fptgPRgy9AFdxBkPMbdckAAAAAElFTkSuQmCC"></td>
+    </tr>
+    <tr>
+      <th>Esta correto</th>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+    </tr>
+    <tr>
+      <th>Esta correto um bit errado</th>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+    </tr>
+    <tr>
+      <th>Esta correto dois bits errados</th>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Não (8)</td>
+      <td>Não (6)</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+    </tr>
+    <tr>
+      <th>Esta correto Tres bits errados</th>
+      <td>Sim</td>
+      <td>Não (6)</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Não (8)</td>
+      <td>Sim</td>
+      <td>Não (6)</td>
+      <td>Sim</td>
+      <td>Sim</td>
+    </tr>
+  </tbody>
+</table><h1>Neural network com 35 neurons, 10000 epochs, 0.0005 goal, 0.9 learning rate, 0.4 momentum</h1><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>0</th>
+      <th>1</th>
+      <th>2</th>
+      <th>3</th>
+      <th>4</th>
+      <th>5</th>
+      <th>6</th>
+      <th>7</th>
+      <th>8</th>
+      <th>9</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Entrada</th>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGP4Yf+BiYGBAQVzoPEZGBiYfmARw4JZOBgxxAAZOwNj2DV2NwAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGP4wfiBiYGBARkzsP9jwBD7fxBT3Q97TDEsAAAAigfm9h/wvgAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGNgYPzAxMDAgIwZ/v9jQBdjYjhMlDoGLOYBAL5PB7q+z4YtAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAF0lEQVR4nGNgP/iBiYGBgRDGCv4TpxcAFTEEjR8I5HwAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGNgwALY/39gYmBgQME/mRjQxRj+/8MUY2DE0AsANFwGAm5LhW0AAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGP4wcDAxICKGdj/f0AXY/rJhEXdP0yxH4wYegGDtAcCn+rufQAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAHklEQVR4nGNgwAL+/2NgYmBAw4c/oIsx/LDHEMOGAVWYBfyNdABzAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAGklEQVR4nGP4wfiBiYGBARkzsP9jwBCjQB0AywsH7vH8OboAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGP4wfiBiYGBARkzsP9jwBD7wYAp9h+LOiwAAJhvBgStb6iFAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAHUlEQVR4nGP4wfiBiYGBARkzsP9jQBcjFjNgMQ8ANjwFBF3yIWUAAAAASUVORK5CYII="></td>
+    </tr>
+    <tr>
+      <th>(um bit errado)</th>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGP8z/CRiYGBAQUzOjBgiP1gwBTDglk4GDHEABXuA2ZsKbVjAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIElEQVR4nGP4f/ADEwMDAzJmYP/HgCGGTd0Pe0wxLAAATL8IrWC2ThoAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGNgP/iBiYGBARkz/P/HgC7GxHCYKHUMDIwY6gAKkwiBerUQVAAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAHklEQVR4nGNgYPzAxMDAgILZDzCgi2EF/w9i6sWCAQWlBI0tE1d8AAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJElEQVR4nGNgP8DAxMCAghnY/39AF2P6yYSp7v8/TDEGRgy9AINhBtHRKrBwAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJElEQVR4nGP4f4CBiYEBBTOw//+ALsb0kwmLun+YYj8YMfQCAM/pB8mxTqqAAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGNgP8DAxMCAghn+/8MQY2I4/AFD3Q97DDFsGACknQbLO4wNUwAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAHElEQVR4nGP4f/ADEwMDAzJmYP/HgCH2g5FsdQAXTwi15GDSRAAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGP4f/ADEwMDAzJmYP/HgCH2gwFT7D8WdVgAAOSkBstrnxZ4AAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAH0lEQVR4nGP4f/ADEwMDAzJmYP/HgC5GLGb4wYhhHgCCcQXLQXFgigAAAABJRU5ErkJggg=="></td>
+    </tr>
+    <tr>
+      <th>(dois bits errados)</th>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIElEQVR4nGP4Yf+BiYGBAQVz/BfAEPvBiKkOG+bAFAMAoS0FYIMkLPgAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJUlEQVR4nGP4wfiBiYGBAQXz/2PAEPtxCEOM4Yc9pl6O/wLoYgDhRggdtZNJuAAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGNgYPzAxMDAgIL//2PAEGM4hCHGgEUdA4M9hnkAjaEHCRsi2TsAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGNgP/iBiYGBARX/F0AXwwr+Y+pl/M/wEV0MAIqNB4s0nJDVAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIElEQVR4nGNgwALY/zEwMTCgYAYGxg8YYv+xqbPHUAcA64YFQx4IAo4AAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAHklEQVR4nGP4wcDAxICKGdj/YYoxMH4gSt0Pewx1ADrtBkO1sMbtAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGNgwASM/xk+MjEwMKDiQwzoYgw/7D9gijFiiAEAPZkG5pqJlkMAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJElEQVR4nGP4wfiBiYGBAQXz/2PAEPvIhCHGwI6pjuGHPYZ5AJwkB0JsTX+xAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGP4wfiBiYGBAQXz/2NAF2P4wYAp9h+LOgY7DDEAoDMGVFgDNuQAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGP4wfiBiYGBAQXz/2NAF2NgxxTDhhl+2GOYBwB4YQZPQss0OgAAAABJRU5ErkJggg=="></td>
+    </tr>
+    <tr>
+      <th>(Tres bits errados)</th>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJElEQVR4nGP4YcfAxMCAijkYMMQY/zN8xFD30wFDHQsHI4YYACRiBKK6DLYJAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIklEQVR4nGP4wcDAxICKGdj/f0AXY/rIhKGOicEOUy8WAABB4QREEriOLQAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAJUlEQVR4nGNgwASM/xk+MjEwMKDgn0wM6GIM//9hijEwfkAXAwAzzwX9lYqifwAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAFklEQVR4nGNgP8DAxMBAHv7B+IEYdQCelwLh+Hv9ogAAAABJRU5ErkJggg=="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGNgYPzAxMDAgIwZ2P8xoIsxMRzGVPcfUx0DFvMAcccGwsro9jEAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGP4wfiBiYGBARkzsP9jQBdjYjhMlDoGLOYBAL5PB7r3BLi2AAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGNgYPzAxMDAgIL//2PAEPvJhCnGYIdFDBMDAERFBFhc1TDvAAAAAElFTkSuQmCC"></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAI0lEQVR4nGP4wcDAxICKGdj/f0AXY/pxCIu6f5hiPxgx9AIArvkHwREBEWkAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIElEQVR4nGP4wcDAxICKGdj/f8AQ+38AU93/f5hiWAAAsrgGy0S0hjEAAAAASUVORK5CYII="></td>
+      <td><img style="display:inline-block; width: 30px; height: 30px; margin: 0px; image-rendering: pixelated;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZAQAAAAAZbDN+AAAAIUlEQVR4nGP4wcDAxICKGdj/f8AQY7DDou4fptgPRgy9AFdxBkPMbdckAAAAAElFTkSuQmCC"></td>
+    </tr>
+    <tr>
+      <th>Esta correto</th>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+    </tr>
+    <tr>
+      <th>Esta correto um bit errado</th>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+    </tr>
+    <tr>
+      <th>Esta correto dois bits errados</th>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Não (8)</td>
+      <td>Não (6)</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+    </tr>
+    <tr>
+      <th>Esta correto Tres bits errados</th>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Sim</td>
+      <td>Não (6)</td>
+      <td>Sim</td>
+      <td>Sim</td>
+    </tr>
+  </tbody>
+</table>
